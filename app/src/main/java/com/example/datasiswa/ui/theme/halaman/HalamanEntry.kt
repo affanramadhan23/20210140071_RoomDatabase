@@ -3,7 +3,9 @@ package com.example.datasiswa.ui.theme.halaman
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material3.Divider
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
@@ -85,6 +87,17 @@ fun FormInputSiswa(
             modifier = modifier.fillMaxWidth(),
             enabled = enabled,
             singleLine = true
+        )
+
+        if (enabled){
+            Text(
+                text = stringResource(id = R.string.required_field),
+                modifier = Modifier.padding(start = dimensionResource(id = R.dimen.padding_medium))
+            )
+        }
+        Divider(
+            thickness = dimensionResource(id = R.dimen.padding_small),
+            modifier = Modifier.padding(bottom =  dimensionResource(id = R.dimen.padding_medium))
         )
     }
 }
