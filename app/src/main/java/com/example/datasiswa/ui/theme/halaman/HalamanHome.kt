@@ -32,7 +32,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.datasiswa.Destinasi.DestinasiNavigasi
+import com.example.datasiswa.navigasi.DestinasiNavigasi
 import com.example.datasiswa.R
 import com.example.datasiswa.data.Siswa
 import com.example.datasiswa.model.HomeViewModel

@@ -1,4 +1,4 @@
-package com.example.datasiswa.Destinasi
+package com.example.datasiswa.navigasi
 
 interface DestinasiNavigasi {
     /*
