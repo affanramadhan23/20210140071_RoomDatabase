@@ -25,4 +25,12 @@ fun EntrySiswaScreen(
 ){
     val coroutineScope = rememberCoroutineScope()
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
+
+}
+
+@Composable
+fun EntrySiswaBody(
+
+){
+
 }
